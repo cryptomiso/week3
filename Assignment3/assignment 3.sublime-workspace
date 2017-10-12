@@ -1,0 +1,715 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "menu3.html",
+			"settings":
+			{
+				"buffer_size": 5451,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootstrap.min.css",
+			"settings":
+			{
+				"buffer_size": 121200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap.js",
+			"settings":
+			{
+				"buffer_size": 68954,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bootstrap.js",
+			"settings":
+			{
+				"buffer_size": 68954,
+				"line_ending": "Windows",
+				"name": "/*!"
+			}
+		},
+		{
+			"file": "bootstrap-3.3.7-dist/js/bootstrap.js",
+			"settings":
+			{
+				"buffer_size": 69707,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 146010,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*!\n * Bootstrap v3.3.7 (http://getbootstrap.com)\n * Copyright 2011-2016 Twitter, Inc.\n * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)\n */\n.btn-default,\n.btn-primary,\n.btn-success,\n.btn-info,\n.btn-warning,\n.btn-danger {\n  text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);\n  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);\n          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);\n}\n.btn-default:active,\n.btn-primary:active,\n.btn-success:active,\n.btn-info:active,\n.btn-warning:active,\n.btn-danger:active,\n.btn-default.active,\n.btn-primary.active,\n.btn-success.active,\n.btn-info.active,\n.btn-warning.active,\n.btn-danger.active {\n  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);\n          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);\n}\n.btn-default.disabled,\n.btn-primary.disabled,\n.btn-success.disabled,\n.btn-info.disabled,\n.btn-warning.disabled,\n.btn-danger.disabled,\n.btn-default[disabled],\n.btn-primary[disabled],\n.btn-success[disabled],\n.btn-info[disabled],\n.btn-warning[disabled],\n.btn-danger[disabled],\nfieldset[disabled] .btn-default,\nfieldset[disabled] .btn-primary,\nfieldset[disabled] .btn-success,\nfieldset[disabled] .btn-info,\nfieldset[disabled] .btn-warning,\nfieldset[disabled] .btn-danger {\n  -webkit-box-shadow: none;\n          box-shadow: none;\n}\n.btn-default .badge,\n.btn-primary .badge,\n.btn-success .badge,\n.btn-info .badge,\n.btn-warning .badge,\n.btn-danger .badge {\n  text-shadow: none;\n}\n.btn:active,\n.btn.active {\n  background-image: none;\n}\n.btn-default {\n  text-shadow: 0 1px 0 #fff;\n  background-image: -webkit-linear-gradient(top, #fff 0%, #e0e0e0 100%);\n  background-image:      -o-linear-gradient(top, #fff 0%, #e0e0e0 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0e0));\n  background-image:         linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #dbdbdb;\n  border-color: #ccc;\n}\n.btn-default:hover,\n.btn-default:focus {\n  background-color: #e0e0e0;\n  background-position: 0 -15px;\n}\n.btn-default:active,\n.btn-default.active {\n  background-color: #e0e0e0;\n  border-color: #dbdbdb;\n}\n.btn-default.disabled,\n.btn-default[disabled],\nfieldset[disabled] .btn-default,\n.btn-default.disabled:hover,\n.btn-default[disabled]:hover,\nfieldset[disabled] .btn-default:hover,\n.btn-default.disabled:focus,\n.btn-default[disabled]:focus,\nfieldset[disabled] .btn-default:focus,\n.btn-default.disabled.focus,\n.btn-default[disabled].focus,\nfieldset[disabled] .btn-default.focus,\n.btn-default.disabled:active,\n.btn-default[disabled]:active,\nfieldset[disabled] .btn-default:active,\n.btn-default.disabled.active,\n.btn-default[disabled].active,\nfieldset[disabled] .btn-default.active {\n  background-color: #e0e0e0;\n  background-image: none;\n}\n.btn-primary {\n  background-image: -webkit-linear-gradient(top, #337ab7 0%, #265a88 100%);\n  background-image:      -o-linear-gradient(top, #337ab7 0%, #265a88 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#265a88));\n  background-image:         linear-gradient(to bottom, #337ab7 0%, #265a88 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #245580;\n}\n.btn-primary:hover,\n.btn-primary:focus {\n  background-color: #265a88;\n  background-position: 0 -15px;\n}\n.btn-primary:active,\n.btn-primary.active {\n  background-color: #265a88;\n  border-color: #245580;\n}\n.btn-primary.disabled,\n.btn-primary[disabled],\nfieldset[disabled] .btn-primary,\n.btn-primary.disabled:hover,\n.btn-primary[disabled]:hover,\nfieldset[disabled] .btn-primary:hover,\n.btn-primary.disabled:focus,\n.btn-primary[disabled]:focus,\nfieldset[disabled] .btn-primary:focus,\n.btn-primary.disabled.focus,\n.btn-primary[disabled].focus,\nfieldset[disabled] .btn-primary.focus,\n.btn-primary.disabled:active,\n.btn-primary[disabled]:active,\nfieldset[disabled] .btn-primary:active,\n.btn-primary.disabled.active,\n.btn-primary[disabled].active,\nfieldset[disabled] .btn-primary.active {\n  background-color: #265a88;\n  background-image: none;\n}\n.btn-success {\n  background-image: -webkit-linear-gradient(top, #5cb85c 0%, #419641 100%);\n  background-image:      -o-linear-gradient(top, #5cb85c 0%, #419641 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#5cb85c), to(#419641));\n  background-image:         linear-gradient(to bottom, #5cb85c 0%, #419641 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #3e8f3e;\n}\n.btn-success:hover,\n.btn-success:focus {\n  background-color: #419641;\n  background-position: 0 -15px;\n}\n.btn-success:active,\n.btn-success.active {\n  background-color: #419641;\n  border-color: #3e8f3e;\n}\n.btn-success.disabled,\n.btn-success[disabled],\nfieldset[disabled] .btn-success,\n.btn-success.disabled:hover,\n.btn-success[disabled]:hover,\nfieldset[disabled] .btn-success:hover,\n.btn-success.disabled:focus,\n.btn-success[disabled]:focus,\nfieldset[disabled] .btn-success:focus,\n.btn-success.disabled.focus,\n.btn-success[disabled].focus,\nfieldset[disabled] .btn-success.focus,\n.btn-success.disabled:active,\n.btn-success[disabled]:active,\nfieldset[disabled] .btn-success:active,\n.btn-success.disabled.active,\n.btn-success[disabled].active,\nfieldset[disabled] .btn-success.active {\n  background-color: #419641;\n  background-image: none;\n}\n.btn-info {\n  background-image: -webkit-linear-gradient(top, #5bc0de 0%, #2aabd2 100%);\n  background-image:      -o-linear-gradient(top, #5bc0de 0%, #2aabd2 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#5bc0de), to(#2aabd2));\n  background-image:         linear-gradient(to bottom, #5bc0de 0%, #2aabd2 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2aabd2', GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #28a4c9;\n}\n.btn-info:hover,\n.btn-info:focus {\n  background-color: #2aabd2;\n  background-position: 0 -15px;\n}\n.btn-info:active,\n.btn-info.active {\n  background-color: #2aabd2;\n  border-color: #28a4c9;\n}\n.btn-info.disabled,\n.btn-info[disabled],\nfieldset[disabled] .btn-info,\n.btn-info.disabled:hover,\n.btn-info[disabled]:hover,\nfieldset[disabled] .btn-info:hover,\n.btn-info.disabled:focus,\n.btn-info[disabled]:focus,\nfieldset[disabled] .btn-info:focus,\n.btn-info.disabled.focus,\n.btn-info[disabled].focus,\nfieldset[disabled] .btn-info.focus,\n.btn-info.disabled:active,\n.btn-info[disabled]:active,\nfieldset[disabled] .btn-info:active,\n.btn-info.disabled.active,\n.btn-info[disabled].active,\nfieldset[disabled] .btn-info.active {\n  background-color: #2aabd2;\n  background-image: none;\n}\n.btn-warning {\n  background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);\n  background-image:      -o-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4e), to(#eb9316));\n  background-image:         linear-gradient(to bottom, #f0ad4e 0%, #eb9316 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffeb9316', GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #e38d13;\n}\n.btn-warning:hover,\n.btn-warning:focus {\n  background-color: #eb9316;\n  background-position: 0 -15px;\n}\n.btn-warning:active,\n.btn-warning.active {\n  background-color: #eb9316;\n  border-color: #e38d13;\n}\n.btn-warning.disabled,\n.btn-warning[disabled],\nfieldset[disabled] .btn-warning,\n.btn-warning.disabled:hover,\n.btn-warning[disabled]:hover,\nfieldset[disabled] .btn-warning:hover,\n.btn-warning.disabled:focus,\n.btn-warning[disabled]:focus,\nfieldset[disabled] .btn-warning:focus,\n.btn-warning.disabled.focus,\n.btn-warning[disabled].focus,\nfieldset[disabled] .btn-warning.focus,\n.btn-warning.disabled:active,\n.btn-warning[disabled]:active,\nfieldset[disabled] .btn-warning:active,\n.btn-warning.disabled.active,\n.btn-warning[disabled].active,\nfieldset[disabled] .btn-warning.active {\n  background-color: #eb9316;\n  background-image: none;\n}\n.btn-danger {\n  background-image: -webkit-linear-gradient(top, #d9534f 0%, #c12e2a 100%);\n  background-image:      -o-linear-gradient(top, #d9534f 0%, #c12e2a 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#d9534f), to(#c12e2a));\n  background-image:         linear-gradient(to bottom, #d9534f 0%, #c12e2a 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-color: #b92c28;\n}\n.btn-danger:hover,\n.btn-danger:focus {\n  background-color: #c12e2a;\n  background-position: 0 -15px;\n}\n.btn-danger:active,\n.btn-danger.active {\n  background-color: #c12e2a;\n  border-color: #b92c28;\n}\n.btn-danger.disabled,\n.btn-danger[disabled],\nfieldset[disabled] .btn-danger,\n.btn-danger.disabled:hover,\n.btn-danger[disabled]:hover,\nfieldset[disabled] .btn-danger:hover,\n.btn-danger.disabled:focus,\n.btn-danger[disabled]:focus,\nfieldset[disabled] .btn-danger:focus,\n.btn-danger.disabled.focus,\n.btn-danger[disabled].focus,\nfieldset[disabled] .btn-danger.focus,\n.btn-danger.disabled:active,\n.btn-danger[disabled]:active,\nfieldset[disabled] .btn-danger:active,\n.btn-danger.disabled.active,\n.btn-danger[disabled].active,\nfieldset[disabled] .btn-danger.active {\n  background-color: #c12e2a;\n  background-image: none;\n}\n.thumbnail,\n.img-thumbnail {\n  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);\n          box-shadow: 0 1px 2px rgba(0, 0, 0, .075);\n}\n.dropdown-menu > li > a:hover,\n.dropdown-menu > li > a:focus {\n  background-color: #e8e8e8;\n  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);\n  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e8e8e8));\n  background-image:         linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);\n  background-repeat: repeat-x;\n}\n.dropdown-menu > .active > a,\n.dropdown-menu > .active > a:hover,\n.dropdown-menu > .active > a:focus {\n  background-color: #2e6da4;\n  background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n  background-image:      -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2e6da4));\n  background-image:         linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);\n  background-repeat: repeat-x;\n}\n.navbar-default {\n  background-image: -webkit-linear-gradient(top, #fff 0%, #f8f8f8 100%);\n  background-image:      -o-linear-gradient(top, #fff 0%, #f8f8f8 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f8f8f8));\n  background-image:         linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-radius: 4px;\n  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);\n          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);\n}\n.navbar-default .navbar-nav > .open > a,\n.navbar-default .navbar-nav > .active > a {\n  background-image: -webkit-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);\n  background-image:      -o-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#dbdbdb), to(#e2e2e2));\n  background-image:         linear-gradient(to bottom, #dbdbdb 0%, #e2e2e2 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbdbdb', endColorstr='#ffe2e2e2', GradientType=0);\n  background-repeat: repeat-x;\n  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);\n          box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);\n}\n.navbar-brand,\n.navbar-nav > li > a {\n  text-shadow: 0 1px 0 rgba(255, 255, 255, .25);\n}\n.navbar-inverse {\n  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 100%);\n  background-image:      -o-linear-gradient(top, #3c3c3c 0%, #222 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#222));\n  background-image:         linear-gradient(to bottom, #3c3c3c 0%, #222 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  background-repeat: repeat-x;\n  border-radius: 4px;\n}\n.navbar-inverse .navbar-nav > .open > a,\n.navbar-inverse .navbar-nav > .active > a {\n  background-image: -webkit-linear-gradient(top, #080808 0%, #0f0f0f 100%);\n  background-image:      -o-linear-gradient(top, #080808 0%, #0f0f0f 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#080808), to(#0f0f0f));\n  background-image:         linear-gradient(to bottom, #080808 0%, #0f0f0f 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff080808', endColorstr='#ff0f0f0f', GradientType=0);\n  background-repeat: repeat-x;\n  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);\n          box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);\n}\n.navbar-inverse .navbar-brand,\n.navbar-inverse .navbar-nav > li > a {\n  text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);\n}\n.navbar-static-top,\n.navbar-fixed-top,\n.navbar-fixed-bottom {\n  border-radius: 0;\n}\n@media (max-width: 767px) {\n  .navbar .navbar-nav .open .dropdown-menu > .active > a,\n  .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,\n  .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {\n    color: #fff;\n    background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n    background-image:      -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n    background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2e6da4));\n    background-image:         linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);\n    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);\n    background-repeat: repeat-x;\n  }\n}\n.alert {\n  text-shadow: 0 1px 0 rgba(255, 255, 255, .2);\n  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05);\n          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05);\n}\n.alert-success {\n  background-image: -webkit-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);\n  background-image:      -o-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#dff0d8), to(#c8e5bc));\n  background-image:         linear-gradient(to bottom, #dff0d8 0%, #c8e5bc 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffc8e5bc', GradientType=0);\n  background-repeat: repeat-x;\n  border-color: #b2dba1;\n}\n.alert-info {\n  background-image: -webkit-linear-gradient(top, #d9edf7 0%, #b9def0 100%);\n  background-image:      -o-linear-gradient(top, #d9edf7 0%, #b9def0 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#d9edf7), to(#b9def0));\n  background-image:         linear-gradient(to bottom, #d9edf7 0%, #b9def0 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffb9def0', GradientType=0);\n  background-repeat: repeat-x;\n  border-color: #9acfea;\n}\n.alert-warning {\n  background-image: -webkit-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);\n  background-image:      -o-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#fcf8e3), to(#f8efc0));\n  background-image:         linear-gradient(to bottom, #fcf8e3 0%, #f8efc0 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fff8efc0', GradientType=0);\n  background-repeat: repeat-x;\n  border-color: #f5e79e;\n}\n.alert-danger {\n  background-image: -webkit-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);\n  background-image:      -o-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2dede), to(#e7c3c3));\n  background-image:         linear-gradient(to bottom, #f2dede 0%, #e7c3c3 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffe7c3c3', GradientType=0);\n  background-repeat: repeat-x;\n  border-color: #dca7a7;\n}\n.progress {\n  background-image: -webkit-linear-gradient(top, #ebebeb 0%, #f5f5f5 100%);\n  background-image:      -o-linear-gradient(top, #ebebeb 0%, #f5f5f5 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#f5f5f5));\n  background-image:         linear-gradient(to bottom, #ebebeb 0%, #f5f5f5 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);\n  background-repeat: repeat-x;\n}\n.progress-bar {\n  background-image: -webkit-linear-gradient(top, #337ab7 0%, #286090 100%);\n  background-image:      -o-linear-gradient(top, #337ab7 0%, #286090 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#286090));\n  background-image:         linear-gradient(to bottom, #337ab7 0%, #286090 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff286090', GradientType=0);\n  background-repeat: repeat-x;\n}\n.progress-bar-success {\n  background-image: -webkit-linear-gradient(top, #5cb85c 0%, #449d44 100%);\n  background-image:      -o-linear-gradient(top, #5cb85c 0%, #449d44 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#5cb85c), to(#449d44));\n  background-image:         linear-gradient(to bottom, #5cb85c 0%, #449d44 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff449d44', GradientType=0);\n  background-repeat: repeat-x;\n}\n.progress-bar-info {\n  background-image: -webkit-linear-gradient(top, #5bc0de 0%, #31b0d5 100%);\n  background-image:      -o-linear-gradient(top, #5bc0de 0%, #31b0d5 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#5bc0de), to(#31b0d5));\n  background-image:         linear-gradient(to bottom, #5bc0de 0%, #31b0d5 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff31b0d5', GradientType=0);\n  background-repeat: repeat-x;\n}\n.progress-bar-warning {\n  background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #ec971f 100%);\n  background-image:      -o-linear-gradient(top, #f0ad4e 0%, #ec971f 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0ad4e), to(#ec971f));\n  background-image:         linear-gradient(to bottom, #f0ad4e 0%, #ec971f 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffec971f', GradientType=0);\n  background-repeat: repeat-x;\n}\n.progress-bar-danger {\n  background-image: -webkit-linear-gradient(top, #d9534f 0%, #c9302c 100%);\n  background-image:      -o-linear-gradient(top, #d9534f 0%, #c9302c 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#d9534f), to(#c9302c));\n  background-image:         linear-gradient(to bottom, #d9534f 0%, #c9302c 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc9302c', GradientType=0);\n  background-repeat: repeat-x;\n}\n.progress-bar-striped {\n  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);\n  background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);\n  background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);\n}\n.list-group {\n  border-radius: 4px;\n  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);\n          box-shadow: 0 1px 2px rgba(0, 0, 0, .075);\n}\n.list-group-item.active,\n.list-group-item.active:hover,\n.list-group-item.active:focus {\n  text-shadow: 0 -1px 0 #286090;\n  background-image: -webkit-linear-gradient(top, #337ab7 0%, #2b669a 100%);\n  background-image:      -o-linear-gradient(top, #337ab7 0%, #2b669a 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2b669a));\n  background-image:         linear-gradient(to bottom, #337ab7 0%, #2b669a 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2b669a', GradientType=0);\n  background-repeat: repeat-x;\n  border-color: #2b669a;\n}\n.list-group-item.active .badge,\n.list-group-item.active:hover .badge,\n.list-group-item.active:focus .badge {\n  text-shadow: none;\n}\n.panel {\n  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);\n          box-shadow: 0 1px 2px rgba(0, 0, 0, .05);\n}\n.panel-default > .panel-heading {\n  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);\n  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e8e8e8));\n  background-image:         linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);\n  background-repeat: repeat-x;\n}\n.panel-primary > .panel-heading {\n  background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n  background-image:      -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2e6da4));\n  background-image:         linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);\n  background-repeat: repeat-x;\n}\n.panel-success > .panel-heading {\n  background-image: -webkit-linear-gradient(top, #dff0d8 0%, #d0e9c6 100%);\n  background-image:      -o-linear-gradient(top, #dff0d8 0%, #d0e9c6 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#dff0d8), to(#d0e9c6));\n  background-image:         linear-gradient(to bottom, #dff0d8 0%, #d0e9c6 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffd0e9c6', GradientType=0);\n  background-repeat: repeat-x;\n}\n.panel-info > .panel-heading {\n  background-image: -webkit-linear-gradient(top, #d9edf7 0%, #c4e3f3 100%);\n  background-image:      -o-linear-gradient(top, #d9edf7 0%, #c4e3f3 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#d9edf7), to(#c4e3f3));\n  background-image:         linear-gradient(to bottom, #d9edf7 0%, #c4e3f3 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffc4e3f3', GradientType=0);\n  background-repeat: repeat-x;\n}\n.panel-warning > .panel-heading {\n  background-image: -webkit-linear-gradient(top, #fcf8e3 0%, #faf2cc 100%);\n  background-image:      -o-linear-gradient(top, #fcf8e3 0%, #faf2cc 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#fcf8e3), to(#faf2cc));\n  background-image:         linear-gradient(to bottom, #fcf8e3 0%, #faf2cc 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fffaf2cc', GradientType=0);\n  background-repeat: repeat-x;\n}\n.panel-danger > .panel-heading {\n  background-image: -webkit-linear-gradient(top, #f2dede 0%, #ebcccc 100%);\n  background-image:      -o-linear-gradient(top, #f2dede 0%, #ebcccc 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2dede), to(#ebcccc));\n  background-image:         linear-gradient(to bottom, #f2dede 0%, #ebcccc 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffebcccc', GradientType=0);\n  background-repeat: repeat-x;\n}\n.well {\n  background-image: -webkit-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);\n  background-image:      -o-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);\n  background-image: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#f5f5f5));\n  background-image:         linear-gradient(to bottom, #e8e8e8 0%, #f5f5f5 100%);\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e8e8', endColorstr='#fff5f5f5', GradientType=0);\n  background-repeat: repeat-x;\n  border-color: #dcdcdc;\n  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);\n          box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);\n}\n/*# sourceMappingURL=bootstrap-theme.css.map */\n",
+			"file": "bootstrap-theme.css",
+			"file_size": 26132,
+			"file_write_time": 131520734647837794,
+			"settings":
+			{
+				"buffer_size": 26132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 146010,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap.min.js",
+			"settings":
+			{
+				"buffer_size": 37045,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap-3.3.7-dist/js/bootstrap.min.js",
+			"settings":
+			{
+				"buffer_size": 37045,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap-3.3.7-dist/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 146010,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/bootstrap.js",
+			"settings":
+			{
+				"buffer_size": 111390,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mstyles.css",
+			"settings":
+			{
+				"buffer_size": 832,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Assignment3",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Assignment3/css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Assignment3/fonts",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Assignment3/js"
+	],
+	"file_history":
+	[
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Assignment3/menu3.html",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/examples/Lecture40/js/script.js",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/examples/Lecture39/after/js/script.js",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/examples/Lecture31/after/css/bootstrap.min.css",
+		"/C/Users/kelly/AppData/Local/Temp/Temp1_bootstrap-3.3.7-dist.zip/bootstrap-3.3.7-dist/css/bootstrap.min.css",
+		"/C/Users/kelly/AppData/Local/Temp/Temp1_bootstrap-4.0.0-beta-dist(1).zip/css/bootstrap.min.css",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/examples/Lecture52/js/index.html",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/assignments/assignment4/assignment4-solution-starter/easier/SpeakGoodBye.js",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/assignments/assignment4/assignment4-solution-starter/easier/hello.js",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/assignments/assignment4/assignment4-solution-starter/easier/index.html",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/assignments/assignment4/assignment4-solution-starter/easier/script.js",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/assignments/assignment4/assignment4-solution-starter/easier/SpeakHello.js",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/examples/Lecture52/js/script1.js",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/mod3sol/bootstrap.js",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/examples/Lecture31/after/css/styles.css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Mod3/docs/4.0/examples/narrow-jumbotron/narrow-jumbotron.css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/styleformenu.css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Mod3/bootstrap/css/bootstrap-responsive.css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Mod3/assets/js/vendor/jquery-slim.min.js",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Mod3/css/style3.css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Mod3/css/bootstrap-responsive.css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Mod3/css/bootstrap-theme.min.css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Mod3/js/tests/unit/popover.js",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/fullstack-course4/examples/Lecture25/css/bootstrap.min.css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/css/bootstrap.min.css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/Mod3/bootstrap/css/bootstrap.min.css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/bootstrap.zip",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/brunch menu.html",
+		"/C/Users/kelly/OneDrive/Documents/GitHub/coursera-assignments/module2-solution",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/teststyle.css",
+		"/C/Users/kelly/OneDrive/Documents/1 coursera/brunch menu",
+		"/C/Users/kelly/Desktop/lazercat.jpg"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#\n",
+			"}\n",
+			"jump",
+			"DISABLED",
+			"disabled",
+			"/*!"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "menu3.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3194,
+								3200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1005.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bootstrap.min.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 121200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bootstrap.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23891,
+								23891
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12299.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "bootstrap.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*!",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "bootstrap-3.3.7-dist/js/bootstrap.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 69707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6411,
+								6411
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3452.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143901,
+								143901
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 97667.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "bootstrap-theme.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15206,
+								15206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5645.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48503,
+								48503
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 34415.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "bootstrap.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 3717.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "bootstrap-3.3.7-dist/js/bootstrap.min.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32439,
+								32439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 24257.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "bootstrap-3.3.7-dist/css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61298,
+								61303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 48536.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "js/bootstrap.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12408,
+								12414
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6326.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "mstyles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "assignment 3.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
