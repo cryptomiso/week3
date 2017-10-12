@@ -23,12 +23,11 @@ h1{
 
 }
 
-{
-		border-size: border-box;
-		border-width:3px;
-		margin:0 auto;
-		padding:1px;
-		border-color:#000000;
+.container{border-size: border-box;
+border-width:3px;
+margin:0 auto;
+padding:1px;
+border-color:#000000;
 
 }
 .menu-item-description{
